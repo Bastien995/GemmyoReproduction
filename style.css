@@ -1,0 +1,252 @@
+    @font-face {
+        font-family: Perpetua;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff) format('woff');
+        font-display: swap;
+    }
+</style>
+<style id="js-fonts-supplementary" media="none">
+    @font-face {
+        font-family: Perpetua;
+        font-style: italic;
+        font-weight: 400;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-italic.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-italic.woff) format('woff');
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: Perpetua;
+        font-style: normal;
+        font-weight: 700;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff) format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: Torreta;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/bel-divi-torreta.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/bel-divi-torreta.woff) format('woff');
+        font-display: swap;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Perpetua;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff) format('woff');
+    }
+    h1,h2,h3,h5{
+        font-family: Perpetua;
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff2) format('woff2'),
+        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff) format('woff');
+        font-display: swap;
+    }
+    .entete{
+        background-image: url('../Imageye - Gemmyo _ Joaillerie Made in France/header-retromilano-x.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .f-dir{
+        flex-direction: column;
+        text-align: center;
+    }
+    .middle-bg{
+        background-image: url("../Imageye - Gemmyo _ Joaillerie Made in France/header-bijou-mai-2022-x.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .img-carte{
+        background-color: white;
+        padding: 1rem 1rem;
+        width: 400px;
+    }
+    .position{
+        position: relative;
+    }
+    .pos1{
+        position: absolute;
+        bottom: -100px;
+        left: 6.5rem;
+    }
+    .pos2{
+        position: absolute;
+        bottom: -100px;
+        left: 6.5rem;
+    }
+    .logo-img{
+        position: absolute;
+        bottom: 6rem;
+    }
+    .bg-color{
+        background-color: #fdf8f8;
+    }
+    .padding{
+        padding-top: 3rem;
+        padding-bottom: 9rem;
+    }
+    .bordure{
+        border: 4px solid white;
+        padding:5rem 1rem;
+    }
+    .middle-text{
+        height: 100vh;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-link li{
+        list-style: none;
+        margin: 0 1rem;
+        color: #f5ead1;
+    }
+    .top-section-link{
+        border-radius: 0 !important;
+        background-color: rgba(228,160,161,0.8) !important;
+        color: white !important;
+        padding: 0.8rem 2rem;
+        text-decoration: none;
+    }
+    .middle-link{
+        border-radius: 0 !important;
+        color: black !important;
+        padding: 0.8rem 2rem;
+        border: 1px black solid;
+        text-decoration: none;
+    }
+    .left{
+        display: flex;
+        justify-content: flex-end;
+        margin-top:10rem;
+        margin-right: 4rem;
+    }
+.footer-bg{
+    background-color: white !important;
+}
+footer a{
+    color: black;
+}
+.text-size p{
+    font-size: 14px !important;
+}
+.text-size{
+    margin-top: 0 !important;
+}
+.color{
+    color:white !important;
+}
+section {
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    width: 550px;
+  }
+  .section-titre {
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  .section-titre h2 {
+    font-size: 32px;
+    *font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .section-titre p {
+    margin-bottom: 0;
+  }
+  .section-titre h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color:rgba(228,160,161,0.8);
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  .section-title h2 {
+    font-size: 32px;
+    *font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color:rgba(228,160,161,0.8);
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  .section-title p {
+    margin-bottom: 0;
+    *width: 550px;
+    font-family: Perpetua;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .centrer{
+      display: flex;
+      justify-content: center;
+  }
+  .bijoux-article text h3{
+      font-size: 25px;
+  }
+  h6{
+      margin-bottom: 30px !important;
+  }
+  .paragraph-S2{
+    font-family: Perpetua;
+    font-style: italic;
+  }
+  .water-btn{
+      width: 200px;
+  }
+  .link-pos{
+      position: absolute;
+      top: 0.5rem;
+      right: 7.5rem;
+      text-decoration: none;
+      
+  }
+  .link-container{
+      position: relative;
+  }
+  .p-font{
+      font-family: Torreta !important;
+      font-weight: bold;
+  }
+  .width{
+      width: 350px;
+  }
+  .red-color{
+      color: red;
+  }
