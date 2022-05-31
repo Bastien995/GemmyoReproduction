@@ -7,130 +7,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
 
+    <title>GemmyoRepro</title>
 
-
-    <!-- preload most important fonts (but not all, otherwise performance loss) -->
-    <link rel="preload" href="https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff2" as="font" type="font/woff2" crossorigin>
-
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=dAOfvKfSG6_H8fHdgCxXSA&gtm_preview=env-4&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PQVQCQ');</script>
-<!-- End Google Tag Manager -->
- <!-- needs to be before g.js to have dataLayer -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Gemmyo | Joaillerie Made in France</title>
-<meta name="description" content="Joaillerie Gemmyo. La joaillerie en ligne 100% Made in France. Découvrez notre savoir-faire Jeune & Joaillier sur le site ou en boutique à Paris, Lyon, Toulouse, Bruxelles et Genève !" />
-<meta name="robots" content="INDEX,FOLLOW" />
-<meta property="fb:app_id" content="265571266875330" />
-<meta name="p:domain_verify" content="662795062dd7b9d41ee80304561ba570"/>
-
-
-<style>
-
-    @font-face {
-        font-family: Perpetua;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff2) format('woff2'),
-        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua.woff) format('woff');
-        font-display: swap;
-    }
-</style>
-<style id="js-fonts-supplementary" media="none">
-    @font-face {
-        font-family: Perpetua;
-        font-style: italic;
-        font-weight: 400;
-        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-italic.woff2) format('woff2'),
-        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-italic.woff) format('woff');
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: Perpetua;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff2) format('woff2'),
-        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/perpetua-bold.woff) format('woff');
-        font-display: swap;
-    }
-    @font-face {
-        font-family: Torreta;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/bel-divi-torreta.woff2) format('woff2'),
-        url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/bel-divi-torreta.woff) format('woff');
-        font-display: swap;
-    }
-</style>
-
-
-<script>
-    if(!("fonts" in document)) {
-        // enable the fallback font-face blocks
-        var styleEl = document.getElementById("js-fonts-supplementary");
-        if( styleEl ) {
-            styleEl.media = "all";
-        }
-    } else {
-        function getFontFace(fileName, family, weight, style) {
-            let props = {
-                display: "swap",
-                style: style,
-                weight: weight,
-            };
-            let url = "url(https://www.gemmyo.com/skin/frontend/gemmyo/default/fonts/" + fileName + ".woff2) format('woff2')";
-            let newFont = new FontFace(family, url, props);
-            return newFont.load().catch(function(err){console.log(err)}).then(function(newFontFace) {
-                return newFontFace;
-            });
-        }
-        let fontsTab = [
-            getFontFace("perpetua-italic", "Perpetua", 400, "italic"),
-            getFontFace("perpetua-bold", "Perpetua", 700, "normal")
-        ];
-        if (window.location.pathname === '' || window.location.pathname === '/joaillerie/les-rendez-vous-de-la-creation.html') {
-            fontsTab.push(getFontFace("bel-divi-torreta", "Torreta", 400, "normal"));
-        }
-        if (window.location.pathname === '/joaillerie/collections/art-deco.html') {
-            fontsTab.push(getFontFace("ArtisualDeco-Thin", "ArtisualDeco", 400, "normal"));
-            fontsTab.push(getFontFace("ArtisualDeco-Regular", "ArtisualDecoRegular", 400, "normal"));
-        }
-        Promise.all(fontsTab).then(function(fonts) {
-            fonts.forEach(function(font) {document.fonts.add(font) });
-        });
-    }
-</script>
 
 <script type="application/ld+json">{"@context":"http://schema.org","@id":"https://www.gemmyo.com/#website","@type":"WebSite","name":"Gemmyo","url":"https://www.gemmyo.com/","potentialAction":{"@type":"SearchAction","target":"https://www.gemmyo.com/#q={search_term_string}&is_v=1","query-input":"required name=search_term_string"}}</script><link rel="stylesheet" type="text/css" href="https://cdn.gemmyo.com/skin/frontend/gemmyo/default/dist/styles/screen-0865efaf72.css" media="all" />
 <script type="text/javascript" src="https://cdn.gemmyo.com/skin/frontend/gemmyo/default/dist/scripts/g-aba64e5f6c.js" defer></script>
 
-<script>
-    window.algoliaConfig = {"instant":{"enabled":true,"infiniteScrollEnabled":true,"apiKey":"ODljNjA4ZWQyNTVmYjViNWMxZWFiZjAyMGFiYjllOTc3NDc5YTBjYmY1YWNjNTA4MWIxODkyYjBiNDE1YTEyZWZpbHRlcnM9Jm51bWVyaWNGaWx0ZXJzPXZpc2liaWxpdHlfc2VhcmNoJTNEMQ==","selector":".main","isAddToCartEnabled":false,"showStaticContent":false,"title":"","description":"","content":"","imgHtml":"","hasFacets":true},"autocomplete":{"enabled":false,"apiKey":"ODNmZGNmYTA3Y2IyYjc0MzU4ZDBmOWY0M2NhYjVjZjc4Y2UzYmFkZjdkNWZiMzE0YWI0NzAzODMxNjI4MGY1ZmZpbHRlcnM9","selector":".algolia-search-input","sections":[{"name":"pages","label":"Pages","hitsPerPage":"2"}],"nbOfProductsSuggestions":"6","nbOfCategoriesSuggestions":"2","nbOfQueriesSuggestions":"0","displaySuggestionsCategories":true,"isDebugEnabled":false},"extensionVersion":"1.13.0","applicationId":"RGNALOQ376","indexName":"magento_fr","facets":[{"attribute":"price","type":"slider","label":"Prix"},{"attribute":"categories_without_path","type":"conjunctive","label":"Cat\u00e9gorie"},{"attribute":"gem_metal","type":"conjunctive","label":"M\u00e9tal"},{"attribute":"gem_gem","type":"conjunctive","label":"Pierre"}],"areCategoriesInFacets":false,"hitsPerPage":12,"sortingIndices":[],"isSearchPage":false,"isCategoryPage":false,"removeBranding":true,"priceKey":".EUR.default","currencyCode":"EUR","currencySymbol":"\u20ac","maxValuesPerFacet":20,"autofocus":true,"analytics":{"enabled":true,"delay":3000,"triggerOnUIInteraction":true,"pushInitialSearch":true},"request":{"query":"","refinementKey":"","refinementValue":"","path":"","level":"","formKey":"1VfadAyPMQt0IO37"},"showCatsNotIncludedInNavigation":false,"showSuggestionsOnNoResultsPage":true,"baseUrl":"https:\/\/www.gemmyo.com","popularQueries":[],"useAdaptiveImage":false,"urlTrackedParameters":["query","attribute:*","index"],"urls":{"logo":"https:\/\/cdn.gemmyo.com\/skin\/frontend\/base\/default\/algoliasearch\/search-by-algolia.svg"},"translations":{"to":"\u00e0","or":"ou","go":"Aller","in":"en","popularQueries":"Vous pouvez essayer l'une de nos recherches populaires","seeAll":"Voir tous les produits","allDepartments":"Toutes les cat\u00e9gories","seeIn":"Voir les produits dans","orIn":"ou dans","noProducts":"Aucun produit ne correspond \u00e0 la recherche","noResults":"Aucun r\u00e9sultat","refine":"Affiner","selectedFilters":"Filtres s\u00e9lectionn\u00e9s","clearAll":"Effacer tous les filtres","previousPage":"Page pr\u00e9c\u00e9dente","nextPage":"Page suivante","searchFor":"Search for products","relevance":"Pertinence","categories":"Cat\u00e9gories","products":"Produits","searchBy":"Search by","showMore":"Voir plus de produits"}};
-</script>
-
-<!--[if lte IE 9]>
-<script>
-    document.addEventListener("DOMContentLoaded", function(e) {
-        algoliaBundle.$(function ($) {
-            window.algoliaConfig.autofocus = false;
-        });
-    });
-</script>
-<![endif]-->
-
                         
-                            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-                            <!--[if lte IE 9]>
-                                <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-                            <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="slick\slick.css" />
-  <link rel="stylesheet" type="text/css" href="slick\slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="slick\slick-theme.css" />
+
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="https://cdn.gemmyo.com/skin/frontend/gemmyo/default/images/icons/mstile-144x144.png">
     <meta name="msapplication-config" content="https://cdn.gemmyo.com/skin/frontend/gemmyo/default/images/icons/browserconfig.xml">
@@ -196,9 +86,6 @@
                                   <li>&nbsp;</li>
                                   <li><a href="">Haute Joaillerie</a></li>
                                   <li><a href="" style="text-decoration: underline;">Toutes nos collections</a></li>
-<!--                                  <li><a href="/joaillerie/collections/gemmiaou.html">Gemmiaou</a></li>-->
-<!--                                  <li><a href="/joaillerie/collections/gemmyorama.html">Gemmyorama</a></li>-->
-<!--                                  <li><a href="/joaillerie/collections/wanderlust.html">Wanderlust</a></li>-->
                                   <li>&nbsp;</li>
                                   <li><a class="g-a-pink" href="">Les rendez-vous de la création</a></li>
                               </ul>
@@ -329,16 +216,6 @@
                         <use xlink:href="#svg-heart"></use>
                     </svg>
                 </a>
-                <!-- <a class="facebook" href="" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 100 100" class="svg-social">
-                        <use xlink:href="#svg-facebook"></use>
-                    </svg>
-                </a>
-                <a class="instagram" href="" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 100 100" class="svg-social">
-                        <use xlink:href="#svg-instagram"></use>
-                    </svg>
-                </a>-->
             </div>
             <div class="g-row-container h-justify currency-switcher-container">
                     <div class="currency-switcher-list">
@@ -360,20 +237,9 @@
 
 
 
-<!--DILUTED LINKS BELOW!!-->
-
-
 <!-- Header -->
 <header id="header" class="header">
-    <div id="js-desktop-nav" class="g-header-container transparent-menu"> <!--refactor these classes-->
-<!--    <div id="info-banner">-->
-<!--        <div class="h-relative g-row-container">-->
-<!--            <p class="g-serif-text h-no-margin">-->
-<!--                <span class="h-d-from-t">À partir du <b>15/07</b>, délais de livraison allongés jusqu'à la rentrée</span>-->
-<!--                <span class="h-d-to-t">À partir du <b>15/07</b>, délais allongés pour l'été</span>-->
-<!--            </p>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div id="js-desktop-nav" class="g-header-container transparent-menu">
     <div class="g-row-container g-col-container-m g-header">
         <div class="g-col-container-m g-header-side">
             <div id="mobile-menu-toggle">
@@ -388,9 +254,6 @@
                     <use xlink:href="#svg-gemmyo"></use>
                 </svg>
             </a>
-            <!--    <a href="/" title="Gemmyo" class="gem-a--no-hover">
-                    <p class="g-logo-test"><span class="g-logo-g">G</span>emmyo</p>
-                </a>-->
         </div>
 
 
@@ -569,7 +432,7 @@
                 </div>
             </li>
             <li class="display-on-hover g-row-container">
-                <p><a href="/bijouterie.html">Boutiques</a></p>
+                <p><a href="">Boutiques</a></p>
                 <div class="nav-tab">
                     <div class="col">
                         <div class="g-col-container" style="width: 1200px">
@@ -670,12 +533,9 @@
     </nav>
 
 
-    <!--DILUTED MEU BELOW!!-->
 
 
-        <div class="g-col-container-m h-flex-end js-search-side g-header-side" style="align-items:flex-end"> <!-- padding so that it's included in g-header-side width -->
-<!--            <div class="h-d-from-l currency-switcher-container">-->
-<!--                --><!--            </div>-->
+        <div class="g-col-container-m h-flex-end js-search-side g-header-side" style="align-items:flex-end">
 
             <div class="g-header-picto h-h-to-s js-header-search">
                 
@@ -707,7 +567,7 @@
                 </svg>
             </a>
 
-            <a href="" class="g-header-picto h-relative " title="Panier"> <!-- relative for cart-count -->
+            <a href="" class="g-header-picto h-relative " title="Panier">
                 <svg viewBox="0 0 100 100" class="svg-header">
                     <use xlink:href="#svg-cart"></use>
                 </svg>
@@ -808,8 +668,8 @@
     <section class="bg-color">
         <div class="container">
             <div class="bijoux-text  centrer">
-                <div class="section-title"><h2>NOS BIJOUX</h2>
-                    <p class="mt-5">Des créations exigeantes, pensées pour s’adapter à la vie
+                <div class="section-title"><h2 class="title-s1">NOS BIJOUX</h2>
+                    <p class="mt-5" style="font-size: 21px; color: #3b3b3b; line-height: 40px;">Des créations exigeantes, pensées pour s’adapter à la vie
                         d’aujourd’hui avec élégance et discrétion.</p>
                     </div>
             </div>
@@ -817,31 +677,31 @@
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid mb-5 mt-5" src="Imageye - Gemmyo _ Joaillerie Made in France\baby-everbloom-non-pavee-face-sd-1.png">
                     <div class="text">
-                        <h6>BABY EVERBLOOM</h6>
+                        <h6 class="bijoux-titre-S1">BABY EVERBLOOM</h6>
                         <p class="mb-5 paragraph-S2">La baby EverBloom a été imaginée comme <br>
                             la traduction précieuse d’une <br>
                             floraison printanière.</p>
-                        <a class="top-section-link" href="">Decouvrir</a>
+                        <a class="top-section-link" href="">Découvrir</a>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid mb-5 mt-5" src="Imageye - Gemmyo _ Joaillerie Made in France\paris-1901-l.png" alt="">
                     <div class="text">
-                        <h6>PARIS 1901 L</h6>
+                        <h6 class="bijoux-titre-S1">PARIS 1901 L</h6>
                         <p class="mb-5 paragraph-S2">Ornée de 37 diamants sertis un à un, <br>
                             la bague Paris 1901 L est l’un des <br>
                             fleurons de notre Maison.</p>
-                        <a class="top-section-link" href="">Decouvrir</a>
+                        <a class="top-section-link" href="">Découvrir</a>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid mb-5 mt-5" src="Imageye - Gemmyo _ Joaillerie Made in France\bague-prima-rosa-pavee-sd.png" alt="">
                     <div class="text">
-                        <h6>PRIMAROSA PAVÉE</h6>
+                        <h6 class="bijoux-titre-S1">PRIMAROSA PAVÉE</h6>
                         <p class="mb-5 paragraph-S2">L’anneau et le corps de bague, comme façonnés <br>
                             d’un seul geste, recréent le mouvement <br>
                             tourbillonnant d’une danseuse.</p>
-                        <a class="top-section-link" href="">Decouvrir</a>
+                        <a class="top-section-link" href="">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -850,8 +710,11 @@
     <section class="middle-bg ">
         <div class="position"> <img class="logo-img" src="Imageye - Gemmyo _ Joaillerie Made in France\logo-rdv-creation.png" alt="" width="230"></div>
         <div class="row middle-text text-center d-flex justify-content-center align-items-center">
-            <div><h2 class="mt-4" style="font-weight: bold;">Le rendez-vous de mai</h2>
-                <p class="mt-3 mb-5">la bague Plissage, une creation inspiree <br> de l'art du papier</p>
+            <div><h2
+             style="font-weight: bold; letter-spacing: 2px;margin-top: 140px;font-size: 30px;
+                ">Le rendez-vous de mai</h2>
+                <p class="mt-3 mb-4" style="font-size: 15px;letter-spacing: 0.3px;
+                line-height: 25px;">la bague Plissage, une creation inspiree <br> de l'art du papier</p>
                 <a class="middle-link" href="">Decouvrir</a></div>  
         </div>
     </section>
@@ -863,11 +726,11 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-around align-items-center">
                     <div class="col-lg-10 text-center bordure">
-                        <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\logo-rdv-creation.png" alt="" width="100">
-                        <div class="section-title mt-5"><h2>LES RENDEZ-VOUS DE LA CRÉATION</h2> </div>
-                        <p>Tous les 1er du mois, notre studio de création vous dévoile
-                            un nouveau bijou et une nouvelle histoire. <br> <br> De l'idée, au dessin puis à la réalité, ces rendez-vous sont l'occasion de mettre en lumière l'envers du décor de notre création.</p>
-                        <div class="link-container"> <div class="link-pos"><a href="" class="link-pos">Decouvrir</a></div> <img src="Imageye - Gemmyo _ Joaillerie Made in France\watercolor-button-6.png" class="water-btn" alt=""></div>
+                        <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\logo-rdv-creation.png" alt="" width="150">
+                        <div class="section-title mt-5"><h2 style="font-size: 25px;">LES RENDEZ-VOUS DE LA CRÉATION</h2> </div>
+                        <p style="font-size:15px ;font-family:Perpetua;letter-spacing: 0.3px;">Tous les 1er du mois, notre studio de création vous dévoile <br>
+                            un nouveau bijou et une nouvelle histoire. <br> <br> De l'idée, au dessin puis à la réalité, ces rendez-vous sont l'occasion <br> de mettre en lumière l'envers du décor de notre création.</p>
+                        <div class="link-container"> <div class="link-pos"><a href="" class="link-pos">Découvrir</a></div> <img src="Imageye - Gemmyo _ Joaillerie Made in France\watercolor-button-6.png" class="water-btn" alt=""></div>
                     </div>           
                 </div>
             </div>
@@ -876,41 +739,52 @@
     <section>
         <div class="d-flex justify-content-center">
             <div class="section-title">
-                <h2>NOS COLLECTIONS</h2>
+                <h2 style="letter-spacing:1.5px;">NOS COLLECTIONS</h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 position">
+                    <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-primarosa-chapitre-ii.jpg" alt="">
+                    <div class="positionnement">
+                        <img src="Imageye - Gemmyo _ Joaillerie Made in France\logo-primarosa-chap-2-white.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 position">
+                    <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-paris-1901-new.jpg" alt="">
+                    <div class="positionnement2">
+                        <img src="Imageye - Gemmyo _ Joaillerie Made in France\paris-1901-new-white.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 position">
+                    <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-art-deco.jpg" alt="">
+                    <div class="positionnement">
+                        <img src="Imageye - Gemmyo _ Joaillerie Made in France\art-deco-w.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 position">
+                    <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-everbloom-I-3.jpg" alt="">
+                    <div class="positionnement4">
+                        <img src="Imageye - Gemmyo _ Joaillerie Made in France\logo-everbloom-1.svg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-lg-3">
-                <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-art-deco.jpg" alt="">
-                <div class="pos1">
-                    <img src="Imageye - Gemmyo _ Joaillerie Made in France\logo-primarosa-chap-2-white.svg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-paris-1901-new.jpg" alt="">
-            </div>
-            <div class="col-lg-3">
-                <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-primarosa-chapitre-ii.jpg" alt="">
-            </div>
-            <div class="col-lg-3">
-                <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\collection-everbloom-I-3.jpg" alt="">
-            </div>
-        </div>
     </section>
     <div class="d-flex justify-content-center">
-        <p class="p-font"> <span class="red-color">____</span> voir toutes les collections <span class="red-color">____</span></p>
+        <span class="red-color">_____ </span><p class="p-font" style="font-size: 18px;">  voir toutes les collections </p><span class="red-color"> _____</span>
     </div>
     <section>
         
         <div class="container-fluid bg-color">
             <div class="row justify-content-around align-items-center">
                 <div class="col-lg-6 d-flex justify-content-center">
-                    <div class="col-lg-9 text-center flex bordure">
+                    <div class="col-lg-10 text-center flex bordure">
                         <h2 class="section-title">UNE JOAILLERIE FRANÇAISE</h2>
                         <img src="Imageye - Gemmyo _ Joaillerie Made in France\quote.png" alt="" width="139">
-                        <p class="mt-4">Nous sommes convaincus qu'un bijou est un objet symbolique entre tous, qui permet de célébrer un moment précieux, ou d'exprimer sa singularité. <br><br>
-                            C'est pourquoi nous avons inventé la première marque de joaillerie personnalisée : choix de la pierre et du métal, fabrication des pièces à la commande, attention de tous les instants... Nous avons personnalisé l'expérience pour permettre à chacun de s'approprier son bijou. <br><br>
+                        <p class="mt-5" style="letter-spacing: 0.4px;">Nous sommes convaincus qu'un bijou est un objet symbolique entre tous, qui permet de célébrer un moment précieux, ou d'exprimer sa singularité. <br><br>
+                            C'est pourquoi nous avons inventé la première marque de joaillerie personnalisée : <br> choix de la pierre et du métal, fabrication des pièces à la commande, attention de tous les instants... Nous avons personnalisé l'expérience pour permettre à chacun de s'approprier son bijou. <br><br>
                             Notre mission est de permettre aux femmes d'exprimer avec finesse et élégance leur singularité,de les soutenir <strong>dans l'accomplissement de qui elles sont vraiment.</strong></p>
                     </div>           
                 </div>
@@ -923,7 +797,7 @@
     <section>
         <div class="d-flex justify-content-center">
             <div class="section-title">
-                <h2>NOS BOUTIQUES</h2>
+                <h2 style="letter-spacing: 1px;">NOS BOUTIQUES</h2>
             </div>
         </div>
         
@@ -932,48 +806,48 @@
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\boutique-paris-carre-v2.jpg" alt="">
                     <h5>PARIS 6e</h5>
-                    <p>Saint-Germain-des-Pres</p>
+                    <p style="font-weight:bold;">Saint-Germain-des-Pres</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\bijouterie-paris-courcelles-menu-3.jpg" alt="">
                     <h5>PARIS 17e</h5>
-                    <p>Courcelles</p>
+                    <p style="font-weight:bold;">Courcelles</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\bijouterie-lyon-menu-4.jpg" alt="">
                     <h5>LYON</h5>
-                    <p>Place des Jacobins</p>
+                    <p style="font-weight:bold;">Place des Jacobins</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\bijouterie-toulouse-menu-2.jpg" alt="">
                     <h5>TOULOUSE</h5>
-                    <p>Place Saint-Georges</p>
+                    <p style="font-weight:bold;">Place Saint-Georges</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\boutique-bruxelles-carre.jpg" alt="">
                     <h5>BRUXELLES</h5>
-                    <p>Grand Sablon</p>
+                    <p style="font-weight:bold;">Grand Sablon</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\boutique-geneve-carre.jpg" alt="">
                     <h5>GENEVE</h5>
-                    <p>Saint-Germain-des-Pres</p>
+                    <p style="font-weight:bold;">Saint-Germain-des-Pres</p>
                 </div>
                 <div class="element text-center">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\boutique-paris-carre-v2.jpg" alt="">
                     <h5>PARIS 6e</h5>
-                    <p>Place du Boug-de-Four</p>
+                    <p style="font-weight:bold;">Place du Boug-de-Four</p>
                 </div>
                 <div class="element Imageye - Gemmyo _ Joaillerie Made in France\boutique-lyon-carre-4-t.jpg">
                     <img class="width" src="Imageye - Gemmyo _ Joaillerie Made in France\boutique-paris-carre-v2.jpg" alt="">
                     <h5>PARIS 6e</h5>
-                    <p>Saint-Germain-des-Pres</p>
+                    <p style="font-weight:bold;">Saint-Germain-des-Pres</p>
                 </div>
             </div>
         </div>
     </section>
     <div class="d-flex justify-content-center">
-        <p class="p-font"> <span class="red-color">____</span> prendre rendez-vous <span class="red-color">____</span></p>
+        <span class="red-color">____</span><p class="p-font" style="font-size: 18px;"> prendre rendez-vous </p><span class="red-color">____</span>
     </div>
     <section>
         <div class="section-title"> </div>
@@ -982,7 +856,7 @@
                 <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\atelier.jpg" alt="">
                 <div class="img-carte pos1 text-center">
                     <div class="section-titre"><h2>NOTRE SAVOIR-FAIRE</h2>
-                        <p class="mt-5">le choix du 100% made in France.</p>
+                        <p class="mt-5" style="font-style: italic;">le choix du 100% made in France.</p>
                     </div>
                 </div>
             </div>
@@ -990,7 +864,7 @@
                 <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\notre-histoire-2.jpg" alt="">
                 <div class="img-carte pos2 text-center">
                     <div class="section-titre"><h2>NOTRE HISTOIRE</h2>
-                        <p class="mt-5">L'aventure d'etre soi.</p>
+                        <p class="mt-5" style="font-style: italic;">L'aventure d'etre soi.</p>
                     </div>
                 </div>
             </div>
@@ -1006,42 +880,42 @@
                     <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\GEM4180_-1.jpg">
                     <div class="description">
                         <h6 style="font-weight:bold;" class="mt-4">3 ACCESSOIRES POUR PRENDRE SOIN DE VOS BIJOUX</h6>
-                        <p>Nous avons la solution pour aider vos bijoux <br> à traverser le temps. Nous avons donc mis <br> du cœur à créer trois objets pour protéger <br> vos bijoux...</p>
+                        <p style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;">Nous avons la solution pour aider vos bijoux <br> à traverser le temps. Nous avons donc mis <br> du cœur à créer trois objets pour protéger <br> vos bijoux...</p>
                     </div>
-                    <a href="">en savoir plus</a>
+                    <a href="" style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;text-decoration: underline !important;">en savoir plus</a>
                 </div>
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\GEM_7188-Modifier__.jpg">
                     <div class="description">
                         <h6 style="font-weight:bold;" class="mt-4">NOS CONSEILS POUR BIEN CHOISIR VOS ALLIANCES</h6>
-                        <p>Nous avons la solution pour aider vos bijoux <br> à traverser le temps. Nous avons donc mis <br> du cœur à créer trois objets pour protéger <br> vos bijoux...</p>
+                        <p style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;">Alliance uniquement en metal ou <br> empiererrée... Avant de penser à associer<br> vos alliances, pensez à votre style et à votre <br> mode de vie.</p>
                     </div>
-                    <a href="">en savoir plus</a>
+                    <a href="" style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;text-decoration: underline !important;">en savoir plus</a>
                 </div>
                 <div class="col-lg-4 text-center">
                     <img class="img-fluid" src="Imageye - Gemmyo _ Joaillerie Made in France\Lady-Atelier_.jpg">
                     <div class="description">
                         <h6 style="font-weight:bold;" class="mt-4">QUEL BUDGET POUR UNE BAGUE DE FIANCIAILLE ?</h6>
-                        <p>Nous avons la solution pour aider vos bijoux <br> à traverser le temps. Nous avons donc mis <br> du cœur à créer trois objets pour protéger <br> vos bijoux...</p>
+                        <p style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;">Une bague de fianciaille est un, voire le <br> le bijoux le plus important dans la vie d'un <br>couple.</p>
                     </div>
-                    <a href="">en savoir plus</a>
+                    <a href="" style="letter-spacing: 1px;font-size:14px;color: #3b3b3b;text-decoration: underline !important;">en savoir plus</a>
                 </div>
             </div>
         </div>
     </section>
     <footer id="footer" class="footer-bg">
     
-        <div class="g-col-container h-align-center g-footer-box">
+        <div class="g-col-container h-align-center g-footer-box footer-texte">
             <a class="g-row-container g-footer-block gem-a--no-hover" href="">
-                <p class="g-serif-l3">Savoir-faire</p>
-                <p class="g-serif-text-s h-center h-no-margin">Tous nos bijoux sont fabriqués<br>
+                <p class="g-serif-l3 titre">Savoir-faire</p>
+                <p class="g-serif-text-s h-center h-no-margin paragraphe">Tous nos bijoux sont fabriqués<br>
                     <strong>en France</strong>, dans nos ateliers</p>
             </a>
         
         
-            <div class="g-row-container g-footer-block">
-                <p class="g-serif-l3">Livraison & retours</p>
-                <p class="g-serif-text-s h-center h-no-margin h-h-for-t">
+            <div class="g-row-container g-footer-block footer-texte">
+                <p class="g-serif-l3 titre">Livraison & retours</p>
+                <p class="g-serif-text-s h-center h-no-margin h-h-for-t paragraphe">
                     <a href="">Remise à taille</a> et <a href="/garanties/retour-gratuit.html">retour</a> sont offerts
                     30J après réception, même pour les bijoux gravés !
                 </p>
@@ -1051,13 +925,13 @@
             </div>
         
         
-            <div class="g-row-container g-footer-block">
-                <p class="g-serif-l3">Besoin d'aide ?</p>
-                <p class="g-serif-text-s h-center h-no-margin">
+            <div class="g-row-container g-footer-block footer-texte">
+                <p class="g-serif-l3 titre">Besoin d'aide ?</p>
+                <p class="g-serif-text-s h-center h-no-margin paragraphe">
                     Par téléphone <a href='' class="">
                         <strong>+33 1 42 46 90 89</strong>
                     </a><br>
-                    ou <span class="h-d-from-l">par mail </span><a href="" class="contact" data-ga="cta-contact-footerpicto">hello@gemmyo.com</a>
+                    ou <span class="h-d-from-l paragraphe">par mail </span><a href="" class="contact" data-ga="cta-contact-footerpicto">hello@gemmyo.com</a>
                 </p>
             </div>
         </div>
@@ -1126,9 +1000,9 @@
                             </ul>
             </div>
         
-            <div class="g-footer__social">
-                <p class="g-serif-l3 h-left">Découvrez <i>La Lettre</i></p>
-                <p class="g-serif-text-s" style="margin-top:15px;">Recevez nos actualités en avant-première en vous inscrivant à <i>La Lettre</i>, un courrier bi-mensuel de vous à nous</p>
+            <div class="g-footer__social title-size">
+                <p class="g-serif-l3 h-left title">Découvrez <i>La Lettre</i></p>
+                <p class="g-serif-text-s paragraphe" style="margin-top:15px;">Recevez nos actualités en avant-première en vous inscrivant à <i>La Lettre</i>, un courrier bi-mensuel de vous à nous</p>
                 <form action="https://www.gemmyo.com/newsletter/subscriber/newajax/" method="post" class="footer-newsletter-form g-col-container-m"
               id="newsletter-validate-detail" data-ga="form-nl-footer">
             <input id="usernamegemhf" class="gemhf-input" type="text" name="username" autocomplete="off" autofill="off" />
