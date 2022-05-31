@@ -157,6 +157,7 @@ footer .footer-texte .paragraphe{
 }
 .text-size p{
     font-size: 14px !important;
+    letter-spacing: 1px !important;
 }
 .text-size{
     margin-top: 0 !important;
@@ -282,4 +283,13 @@ section {
   }
   .img-w{
       width: 150px;
+  }
+  .conteneur{
+      width: 1450px;
+  }
+  .collection-img{
+      width: 400px !important;
+  }
+  .pad{
+      padding:0 5px !important;
   }
